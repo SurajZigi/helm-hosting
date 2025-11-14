@@ -3,7 +3,7 @@ entries:
   ainon-helm:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-11-14T12:29:12.737206672Z"
+    created: "2025-11-14T12:51:24.796830417Z"
     dependencies:
     - condition: appConfigs.enabled
       name: app-configs
@@ -46,11 +46,11 @@ entries:
       repository: ""
       version: 0.1.0
     description: Umbrella chart for the AINON platform
-    digest: 645688430e8e8c98ebdb22c19d9689b88a51ca74267089bfef524bb9ab125283
+    digest: 958e024b4b24b8225f49b36595721303486aca6f6864fb322755186783d08a56
     icon: https://example.com/path/to/your-icon.png
     name: ainon-helm
     type: application
     urls:
     - https://SurajZigi.github.io/helm-hosting/ainon-helm-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-14T12:29:12.732973565Z"
+generated: "2025-11-14T12:51:24.791892674Z"
