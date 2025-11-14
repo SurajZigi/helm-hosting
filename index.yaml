@@ -1,0 +1,56 @@
+apiVersion: v1
+entries:
+  ainon-helm:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-11-14T12:29:12.737206672Z"
+    dependencies:
+    - condition: appConfigs.enabled
+      name: app-configs
+      repository: ""
+      version: 0.1.0
+    - condition: adminApp.enabled
+      name: admin-app
+      repository: ""
+      version: 0.1.0
+    - condition: celeryBeat.enabled
+      name: celery-beat
+      repository: ""
+      version: 0.1.0
+    - condition: celeryWorker.enabled
+      name: celery-worker
+      repository: ""
+      version: 0.1.0
+    - condition: celeryWorkerHeavy.enabled
+      name: celery-worker-heavy
+      repository: ""
+      version: 0.1.0
+    - condition: clamav.enabled
+      name: clamav
+      repository: ""
+      version: 0.1.0
+    - condition: djangoWebApp.enabled
+      name: django-web-app
+      repository: ""
+      version: 0.1.0
+    - condition: proxy.enabled
+      name: proxy
+      repository: ""
+      version: 0.1.0
+    - condition: redis.enabled
+      name: redis
+      repository: ""
+      version: 0.1.0
+    - condition: userApp.enabled
+      name: user-app
+      repository: ""
+      version: 0.1.0
+    description: Umbrella chart for the AINON platform
+    digest: 645688430e8e8c98ebdb22c19d9689b88a51ca74267089bfef524bb9ab125283
+    icon: https://example.com/path/to/your-icon.png
+    name: ainon-helm
+    type: application
+    urls:
+    - https://SurajZigi.github.io/helm-hosting/ainon-helm-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-11-14T12:29:12.732973565Z"
